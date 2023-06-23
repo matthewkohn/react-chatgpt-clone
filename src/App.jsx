@@ -37,10 +37,9 @@ const App = () => {
       console.error(error);
     }
   }
-  console.log(previousChats)
+  // console.log(previousChats)
 
   useEffect(() => {
-    console.log(currentTitle, inputValue, message)
     if (!currentTitle && inputValue && message) {
       setCurrentTitle(inputValue);
     }
@@ -64,7 +63,7 @@ const App = () => {
 
   const currentChat = previousChats.filter((previousChat) => previousChat.title === currentTitle);
   const uniqueTitles = Array.from(new Set(previousChats.map(previousChat => previousChat.title)))
-console.log(uniqueTitles)
+
   return (
     <div className="app">
       <section className="side-bar">
