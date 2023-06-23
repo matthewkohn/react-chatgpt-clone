@@ -60,7 +60,7 @@ The ```.env``` file you've created to store your secret API key should be listed
 _____
 ## Credit
 
-MVP made with help from freecodecamp tutorial: https://www.youtube.com/watch?v=uRQH2CFvedY
+Credit: freecodecamp tutorial https://www.youtube.com/watch?v=uRQH2CFvedY
 
 ## License
 [Read the license here](./LICENSE)
