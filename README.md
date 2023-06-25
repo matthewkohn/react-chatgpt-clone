@@ -1,5 +1,5 @@
 # ChatGPT Clone
-This is the MVP for a ChatGPT Clone I made using React & NodeJS.
+This is the MVP for a ChatGPT Clone made using React & NodeJS.
 
 To clone this project and make it your own, follow the [Setup](#setup) instructions below.
 
@@ -35,12 +35,12 @@ API_KEY=z3BlbkFJGTYeJlAVKPoPptJeCfqnfNASOFnaFnafnsaof
 ```
 NOTE: THIS IS A DUMMY KEY FOR DEMONSTRATION PURPOSES ONLY! KEEP YOUR API KEY A SECRET!
 
-6. Back in your local environment, start up the backend.
+6. In your local environment, start the backend.
 ```
 npm run start:backend
 ```
 
-7. Run the frontend
+7. Start the frontend.
 ```
 npm run start:frontend
 ```
@@ -58,9 +58,6 @@ KEEP YOUR API KEY A SECRET!
 The ```.env``` file you've created to store your secret API key should be listed in this repo's .gitignore file, so future commits & branches will not include your secret API key. Exposed API keys will likely be detected & auto-deleted by OpenAI, in which case you'll need to create a new key and repeat these steps. Never copy your API key anywhere else. When in doubt, create a new API key.
 
 _____
-## Credit
-
-Credit: freecodecamp tutorial https://www.youtube.com/watch?v=uRQH2CFvedY
 
 ## License
 [Read the license here](./LICENSE)
